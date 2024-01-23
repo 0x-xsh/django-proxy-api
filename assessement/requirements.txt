@@ -1,0 +1,12 @@
+requests 
+djangorestframework
+Django
+gunicorn
+psycopg2-binary 
+schedule
+pytest
+django-debug-toolbar
+django-redis
+
+
+
