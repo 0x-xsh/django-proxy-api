@@ -12,7 +12,7 @@ class RetrieveNewsAPIView(APIView):
         
         
         source_id = request.query_params.get('sourceid', '')
-
+        
         # Check if the 'id' parameter is missing
         if not source_id:
             return Response({'error': 'missing sourceid parameter'}, status=status.HTTP_400_BAD_REQUEST)

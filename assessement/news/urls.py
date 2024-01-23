@@ -17,7 +17,7 @@ urlpatterns = [
     path('news/query', NewsByQueryAPIView.as_view(), name='news-by-query'),
     path('news/', RetrieveNewsAPIView.as_view(), name='get-news'),
     
-    
+        
     
     
 ]
