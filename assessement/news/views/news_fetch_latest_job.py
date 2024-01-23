@@ -64,7 +64,7 @@ def fetch_latest():
 
                 saved_articles.append(article_data)
                 
-                print(len(saved_articles))
+            print(f'Fetched {len(saved_articles)} Article ')
         except Exception as e:
             print(e)
 
