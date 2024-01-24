@@ -46,6 +46,7 @@ Django Proxy API is a simple Django application that serves as a proxy to NEWS A
     export DJANGO_SETTINGS_MODULE=assessement.settings
     pytest
     ```
+    ![image](https://github.com/0x-xsh/django-proxy-api/assets/62155175/b3cd5482-4c34-4602-b471-7cc81ac6c45b)
 
 
  # API Usage
