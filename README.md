@@ -99,7 +99,7 @@ Django Proxy API is a simple Django application that serves as a proxy to NEWS A
 - **Method**: `GET`
 - **Description**: Retrieve all news articles.
 - **Query Parameters**:
-    - `sourceid` (required): The identifier for either country, category, or source.
+    - `sourceid` (required): The identifier for the source.
 - **Example**:
     ```bash
     GET /api/v1/news?sourceid=google-news
