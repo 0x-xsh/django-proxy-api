@@ -32,6 +32,7 @@ def fetch_latest():
             data = response.json()
             articles = data.get('articles', [])
 
+            
             if not articles:
                 return Response({'error': 'No articles found'}, status=status.HTTP_404_NOT_FOUND)
 
