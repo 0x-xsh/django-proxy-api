@@ -19,7 +19,7 @@ Django Proxy API is a simple Django application that serves as a proxy to NEWS A
         - `POSTGRES_DB`: Set to `newsdb`.
         - `POSTGRES_USER`: Set to `nazim`.
         - `POSTGRES_PASSWORD`: Set to `nazim`.
-    - Django App SQL Variables:
+    - Django App Postgres DB Variables:
         - `SQL_HOST`: Set to `db`.
         - `SQL_PORT`: Set to `5432`.
     
